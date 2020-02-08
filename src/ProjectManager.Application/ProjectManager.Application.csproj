@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\Manager\" />
+    <Folder Include="Interfaces\Job\" />
+    <Folder Include="Interfaces\Shared\" />
+    <Folder Include="Services\Job\" />
+    <Folder Include="Services\Manager\" />
+    <Folder Include="Services\Shared\" />
+    <Folder Include="ViewModels\Manager\" />
+    <Folder Include="ViewModels\Job\" />
+    <Folder Include="ViewModels\Shared\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManager.Domain\ProjectManager.Domain.csproj" />
+    <ProjectReference Include="..\ProjectManager.Infrastructure\ProjectManager.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
