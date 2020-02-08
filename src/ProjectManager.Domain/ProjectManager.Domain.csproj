@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Manager\" />
+    <Folder Include="Interfaces\Job\" />
+    <Folder Include="Interfaces\Shared\" />
+  </ItemGroup>
+
 </Project>
