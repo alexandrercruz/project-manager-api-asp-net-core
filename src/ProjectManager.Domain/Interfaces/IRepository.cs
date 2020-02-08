@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace ProjectManager.Domain.Interfaces
 {
@@ -14,6 +15,8 @@ namespace ProjectManager.Domain.Interfaces
         void Update(TEntity obj);
 
         void Remove(Guid id);
+
+        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 
         int SaveChanges();
     }

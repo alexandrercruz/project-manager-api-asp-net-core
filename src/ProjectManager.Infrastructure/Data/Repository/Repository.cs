@@ -3,6 +3,8 @@ using ProjectManager.Domain.Interfaces;
 using ProjectManager.Infrastructure.Data.Context;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace ProjectManager.Infrastructure.Data.Repository
 {
@@ -40,6 +42,11 @@ namespace ProjectManager.Infrastructure.Data.Repository
         public virtual void Remove(Guid id)
         {
             DbSet.Remove(DbSet.Find(id));
+        }
+
+        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        {
+            return DbSet.AsNoTracking().Where(predicate);
         }
 
         public int SaveChanges()
