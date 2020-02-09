@@ -1,7 +1,7 @@
 ﻿using ProjectManager.Domain.Interfaces;
-using ProjectManager.Infrastructure.Data.Context;
+using ProjectManager.Infrastructure.Context;
 
-namespace ProjectManager.Infrastructure.Data.UoW
+namespace ProjectManager.Infrastructure.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {

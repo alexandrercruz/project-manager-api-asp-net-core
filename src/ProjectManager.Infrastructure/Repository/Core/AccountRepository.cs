@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectManager.Domain.Entities.Core;
 using ProjectManager.Domain.Interfaces.Core;
-using ProjectManager.Infrastructure.Data.Context;
+using ProjectManager.Infrastructure.Context;
 using System.Linq;
 
-namespace ProjectManager.Infrastructure.Data.Repository.Core
+namespace ProjectManager.Infrastructure.Repository.Core
 {
     public class AccountRepository : Repository<Account>, IAccountRepository
     {

@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectManager.Domain.Interfaces;
-using ProjectManager.Infrastructure.Data.Context;
+using ProjectManager.Infrastructure.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace ProjectManager.Infrastructure.Data.Repository
+namespace ProjectManager.Infrastructure.Repository
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
