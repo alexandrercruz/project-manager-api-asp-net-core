@@ -10,19 +10,19 @@ namespace ProjectManager.Domain.Entities.Manager
 
         public string Description { get; set; }
 
-        public DateTime ExpectedDate { get; set; }
+        public DateTime? ExpectedDate { get; set; }
 
-        public DateTime StartDate { get; set; }
+        public DateTime? StartDate { get; set; }
 
-        public DateTime EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
 
         public string Image { get; set; }
 
-        public Guid TeamId { get; set; }
+        public Guid? TeamId { get; set; }
 
         public Team Team { get; set; }
 
-        public Guid CustomerId { get; set; }
+        public Guid? CustomerId { get; set; }
 
         public Customer Customer { get; set; }
 

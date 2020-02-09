@@ -15,7 +15,7 @@ namespace ProjectManager.Domain.Entities.Manager
 
         public Checklist Checklist { get; set; }
 
-        public Guid DoneById { get; set; }
+        public Guid? DoneById { get; set; }
 
         public Account DoneBy { get; set; }
     }

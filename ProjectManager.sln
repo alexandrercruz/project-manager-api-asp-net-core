@@ -15,11 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManager.Domain", "src\ProjectManager.Domain\ProjectManager.Domain.csproj", "{4A62D198-0E30-48E7-80FB-BD1EA046423B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Infrastructure", "src\ProjectManager.Infrastructure\ProjectManager.Infrastructure.csproj", "{CC0977CD-E0EA-4808-A351-1FF1BB47FBCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManager.Infrastructure", "src\ProjectManager.Infrastructure\ProjectManager.Infrastructure.csproj", "{CC0977CD-E0EA-4808-A351-1FF1BB47FBCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Application", "src\ProjectManager.Application\ProjectManager.Application.csproj", "{BBD060FB-885C-4FE7-8C5A-FE35D0383A72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManager.Application", "src\ProjectManager.Application\ProjectManager.Application.csproj", "{BBD060FB-885C-4FE7-8C5A-FE35D0383A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Infrastructure.IoC", "src\ProjectManager.Infrastructure.IoC\ProjectManager.Infrastructure.IoC.csproj", "{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectManager.Infrastructure.IoC", "src\ProjectManager.Infrastructure.IoC\ProjectManager.Infrastructure.IoC.csproj", "{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManager.Api", "src\ProjectManager.Api\ProjectManager.Api.csproj", "{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{CC0977CD-E0EA-4808-A351-1FF1BB47FBCC} = {9354D30B-A320-46B4-B90A-B9B78275F7A6}
 		{BBD060FB-885C-4FE7-8C5A-FE35D0383A72} = {2A75E570-9163-4BEE-AA2E-58FD1A2F26D6}
 		{64859E05-2A15-4E70-8D09-A9A9D0C4AE1E} = {9354D30B-A320-46B4-B90A-B9B78275F7A6}
+		{D4EC8FB3-3958-4B1A-8EE3-3E5ECCAD928E} = {4696DD10-93A0-4E77-96A9-934859B08D02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E79CF34-230F-4695-A3AE-2FA3338A2FE6}

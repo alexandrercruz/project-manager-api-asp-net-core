@@ -1,4 +1,5 @@
 ﻿using ProjectManager.Domain.Entities.Job;
+using ProjectManager.Domain.Entities.Manager;
 using ProjectManager.Domain.Entities.Shared;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,12 @@ namespace ProjectManager.Domain.Entities.Core
         public ICollection<CompanyAccount> CompanyViewers { get; set; }
 
         public ICollection<Notification> Notifications { get; set; }
+
+        public ICollection<Template> Templates { get; set; }
+
+        public ICollection<Card> CardCreators { get; set; }
+
+        public ICollection<Card> CardResponsible { get; set; }
 
         public ICollection<VerifiedAccount> VerifiedAccounts { get; set; }
 

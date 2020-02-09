@@ -7,7 +7,7 @@ namespace ProjectManager.Domain.Entities.Manager
     {
         public string Title { get; set; }
 
-        public DateTime DoneDate { get; set; }
+        public DateTime? DoneDate { get; set; }
 
         public string Icon { get; set; }
 

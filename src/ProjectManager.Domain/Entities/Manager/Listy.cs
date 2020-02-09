@@ -10,7 +10,7 @@ namespace ProjectManager.Domain.Entities.Manager
 
         public string Description { get; set; }
 
-        public Guid NextId { get; set; }
+        public Guid? NextId { get; set; }
 
         public Listy Next { get; set; }
 

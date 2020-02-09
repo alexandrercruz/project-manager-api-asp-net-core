@@ -11,39 +11,39 @@ namespace ProjectManager.Domain.Entities.Manager
 
         public string Description { get; set; }
 
-        public DateTime DoneDate { get; set; }
+        public DateTime? DoneDate { get; set; }
 
         public bool Filed { get; set; }
 
-        public Guid NextId { get; set; }
+        public Guid? NextId { get; set; }
 
         public Card Next { get; set; }
 
-        public Guid FeatureId { get; set; }
+        public Guid? FeatureId { get; set; }
 
         public Card Feature { get; set; }
 
-        public Guid ListyId { get; set; }
+        public Guid? ListyId { get; set; }
 
         public Listy Listy { get; set; }
 
-        public Guid LabelId { get; set; }
+        public Guid? LabelId { get; set; }
 
         public Label Label { get; set; }
 
-        public Guid StatusId { get; set; }
+        public Guid? StatusId { get; set; }
 
         public Status Status { get; set; }
 
-        public Guid SprintId { get; set; }
+        public Guid? SprintId { get; set; }
 
         public Sprint Sprint { get; set; }
 
-        public Guid CreatorId { get; set; }
+        public Guid? CreatorId { get; set; }
 
         public Account Creator { get; set; }
 
-        public Guid ResponsibleId { get; set; }
+        public Guid? ResponsibleId { get; set; }
 
         public Account Responsible { get; set; }
 

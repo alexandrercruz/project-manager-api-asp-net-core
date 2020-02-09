@@ -3,9 +3,9 @@ using ProjectManager.Application.Interfaces.Core;
 using ProjectManager.Application.Services.Core;
 using ProjectManager.Domain.Interfaces;
 using ProjectManager.Domain.Interfaces.Core;
-using ProjectManager.Infrastructure.Data.Context;
-using ProjectManager.Infrastructure.Data.Repository.Core;
-using ProjectManager.Infrastructure.Data.UoW;
+using ProjectManager.Infrastructure.Context;
+using ProjectManager.Infrastructure.Repository.Core;
+using ProjectManager.Infrastructure.UoW;
 
 namespace ProjectManager.Infrastructure.IoC
 {

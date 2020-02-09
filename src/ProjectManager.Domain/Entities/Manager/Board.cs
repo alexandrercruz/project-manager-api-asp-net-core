@@ -16,7 +16,7 @@ namespace ProjectManager.Domain.Entities.Manager
 
         public Project Project { get; set; }
 
-        public Guid TemplateId { get; set; }
+        public Guid? TemplateId { get; set; }
 
         public Template Template { get; set; }
 
